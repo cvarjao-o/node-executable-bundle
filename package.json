@@ -1,0 +1,21 @@
+{
+  "name": "executable-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "npx pkg -t 'node12-linux-x64,node12-macos-x64,node12-win-x64' ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvarjao-o/node-executable-bundle.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cvarjao-o/node-executable-bundle/issues"
+  },
+  "homepage": "https://github.com/cvarjao-o/node-executable-bundle#readme"
+}
